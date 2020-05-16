@@ -34,6 +34,8 @@ body {
 
 /*Common or shared for board/player1 and board/player2*/
 .board {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .board-player1 {
@@ -50,6 +52,11 @@ body {
 
 .bordered-element {
     border: 1px solid red;
+}
+
+.board-grid-element {
+    width: 100px;
+    height: 50px;
 }
 
 
