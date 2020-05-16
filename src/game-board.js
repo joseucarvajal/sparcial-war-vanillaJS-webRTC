@@ -1,7 +1,7 @@
 const boardsArray = document.querySelectorAll('.board');
 
 const fillBoard = (boardElement) => {
-    const childCount = 20;
+    const childCount = 40;
     for(let i=0; i<childCount; i++){
         const newChild = document.createElement('div');
         newChild.classList.add('bordered-element');

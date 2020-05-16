@@ -55,8 +55,7 @@ body {
 }
 
 .board-grid-element {
-    width: 100px;
-    height: 50px;
+    flex: 0 0 20%;
 }
 
 

@@ -1428,7 +1428,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 var boardsArray = document.querySelectorAll('.board');
 
 var fillBoard = function fillBoard(boardElement) {
-  var childCount = 20;
+  var childCount = 40;
 
   for (var i = 0; i < childCount; i++) {
     var newChild = document.createElement('div');
